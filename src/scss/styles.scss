@@ -1,0 +1,25 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,300&family=Roboto:wght@100;300;500&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+.alert-dialogs{
+        position:fixed;
+        top:0px;
+        width:100%;
+        z-index:100;
+    border-radius:0;
+}
+
+
+//Hide contacts form
+.hide{
+    display:none;
+    z-index: 99999999999999999999999;
+}
